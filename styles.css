@@ -302,6 +302,25 @@
     flex: 1;
 }
 
+.footer-container {
+    width: auto;
+    height: 50px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    color: #f9faf8;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
