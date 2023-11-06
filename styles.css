@@ -65,8 +65,10 @@
                 background-color: #3882f6;
                 color: #f9faf8;
                 width: 90px;
+                height: 25px;
                 /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
                 border-radius: 5px;
+                border: 1px solid #1f2937;
                 }
 
     .header-placeholder {
@@ -97,7 +99,7 @@
     font-weight: bolder;
     text-align: center;
     margin: 30px 0;
-    flex: 1;
+    flex: 0 1 auto;
 }
 
 .box-container {
@@ -111,7 +113,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    flex: auto;
+    flex: 1 0 auto;
 }
 
 .box-1 {
@@ -218,7 +220,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex: auto;
+    flex: 0 1 auto;
 }
 
 .quote-author-container {
@@ -231,7 +233,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex: auto;
+    flex: 0 1 auto;
 }
 
 .quote {
@@ -245,6 +247,61 @@
     width: 600px;
     text-align: end;
 }
+
+.tertiary-content-container {
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-island-container {
+    background-color: #3882f6;
+    width: 800px;
+    height: 100px;
+    border-radius: 7px;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    width: 600px;
+    height: 40px;
+    flex: 0 1 auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.call-to-action-content {
+    color: #f9faf8;
+    flex: 1;
+}
+
+.call-to-action-description {
+    color: #f9faf8;
+    font-size: 14px;
+    flex: 1;
+}
+
+.call-to-action-button {
+    width: 90px;
+    height: 25px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    border-radius: 5px;
+    border: 1px solid #f9faf8;
+    margin: 0 0 0 200px;
+    flex: 1;
+}
+
 
 
 
