@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header container */
+.header-container {
+    background-color: #1f2937;
+    width: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+}
+
+    .header-logo {
+        color: #f9faf8;
+        font-size: 20px;
+        margin: 5px 0 100px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        /* background-color: magenta; */
+        flex: 1;
+
+    }
+
+    .header-link {
+        color: #f9faf8;
+        height: 24px;
+        font-size: 14px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        margin: 5px 0 99px;
+        /* background-color: rebeccapurple; */
+        text-align: end;
+        flex: 1;
+        display: flex;
+    }
+
+    .header-link-subheading {
+        flex: 1;
+
+    }
+
+    .header-allcontent {
+/* 
+        background-color: plum; */
+        flex: 1;
+    }
+        .header-content {
+            color: #f9faf8;
+            font-size: 48px extra-bold;
+            /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+            width: 200px;
+        }
+
+            .content-paragraph {
+                color: #f9faf8;
+                font-size: 18px;
+                /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+            }
+
+                .content-button {
+                background-color: #3882f6;
+                color: #f9faf8;
+                width: 90px;
+                /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+                border-radius: 5px;
+                }
+
+    .header-placeholder {
+        color: #f9faf8;
+        background-color: lightslategray;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 382px;
+        height: 158px;
+        flex: 1;
+
+    }
+
+
+
+
+
+
